@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<facturas>
+    <factura>
+        <id>1042</id>
+        <nombre>INV/2025/00042</nombre>
+        <fecha_emision>2025-05-10</fecha_emision>
+        <fecha_vencimiento>2025-06-10</fecha_vencimiento>
+        <estado>posted</estado>
+        <moneda>EUR</moneda>
+
+        <cliente>
+            <id>18</id>
+            <nombre>Distribuciones Pérez S.L.</nombre>
+            <nif>B91234567</nif>
+            <email>facturacion@perez-distrib.es</email>
+            <telefono>954 123 456</telefono>
+            <direccion>
+                <calle>Calle Betis, 22</calle>
+                <ciudad>Sevilla</ciudad>
+                <codigo_postal>41010</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </cliente>
+
+        <lineas>
+            <linea>
+                <id>1</id>
+                <descripcion>Licencia ERP - Módulo Ventas (anual)</descripcion>
+                <cantidad>1</cantidad>
+                <precio_unitario>850.00</precio_unitario>
+                <descuento>0</descuento>
+                <impuesto_porcentaje>21</impuesto_porcentaje>
+                <subtotal>850.00</subtotal>
+            </linea>
+            <linea>
+                <id>2</id>
+                <descripcion>Soporte técnico premium - 10 horas</descripcion>
+                <cantidad>10</cantidad>
+                <precio_unitario>65.00</precio_unitario>
+                <descuento>0</descuento>
+                <impuesto_porcentaje>21</impuesto_porcentaje>
+                <subtotal>650.00</subtotal>
+            </linea>
+            <linea>
+                <id>3</id>
+                <descripcion>Formación on-site (1 jornada)</descripcion>
+                <cantidad>1</cantidad>
+                <precio_unitario>400.00</precio_unitario>
+                <descuento>0</descuento>
+                <impuesto_porcentaje>21</impuesto_porcentaje>
+                <subtotal>400.00</subtotal>
+            </linea>
+        </lineas>
+
+        <totales>
+            <base_imponible>1900.00</base_imponible>
+            <total_iva>399.00</total_iva>
+            <total>2299.00</total>
+        </totales>
+
+        <forma_pago>Transferencia bancaria 30 días</forma_pago>
+        <cuenta_bancaria>ES12 1234 5678 9012 3456 7890</cuenta_bancaria>
+    </factura>
+</facturas>
